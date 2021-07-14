@@ -41,7 +41,7 @@
 
 }
 
-.grid-element{
+.cell{
     border: 1px solid black;
     background-color: rgb(14, 182, 224);
 }

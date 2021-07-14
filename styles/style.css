@@ -1,0 +1,59 @@
+.main-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(197, 197, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-container{
+    height: 95%;
+    border: 1px solid black;
+    width:  990px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+.grid-container, .size-container, .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 3rem;
+}
+
+
+.grid-container{
+    background-color: blanchedalmond;
+    height: 70%;
+    width: 100%;
+    display: grid;
+}
+
+.title-container, .size-container{
+    height: 15%;
+    width: 100%;
+    background-color: cornsilk;
+
+}
+
+.grid-element{
+    border: 1px solid black;
+    background-color: rgb(14, 182, 224);
+}
+
+
+.container{
+    display: grid;
+    height: 90%;
+    width: 960px;
+    /* height: 200px;
+    width: 200px;
+    grid-template-columns: 50px; */
+    /* grid-template-rows: 1fr; */
+}
+
